@@ -1,0 +1,108 @@
+{
+  "@context" : {
+    "Poison" : {
+      "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Poison"
+    },
+    "Main" : {
+      "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Main"
+    },
+    "Organization" : {
+      "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Organization"
+    },
+    "hasName" : {
+      "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "House" : {
+      "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#House"
+    },
+    "Object" : {
+      "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Object"
+    },
+    "hasHouse" : {
+      "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasHouse",
+      "@type" : "@id"
+    },
+    "Character" : {
+      "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Character"
+    },
+    "Location" : {
+      "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Location"
+    },
+    "Weapon" : {
+      "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Weapon"
+    },
+    "Eventual" : {
+      "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Eventual"
+    },
+    "Secondary" : {
+      "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Secondary"
+    },
+    "hasNativeTongue" : {
+      "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasNativeTongue",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "European" : {
+      "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#European"
+    },
+    "Legal" : {
+      "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Legal"
+    },
+    "Gun" : {
+      "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Gun"
+    },
+    "Illegal" : {
+      "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Illegal"
+    },
+    "Producer" : {
+      "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Producer"
+    },
+    "Supplier" : {
+      "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Supplier"
+    },
+    "Knife" : {
+      "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Knife"
+    },
+    "American" : {
+      "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#American"
+    },
+    "Bomb" : {
+      "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Bomb"
+    },
+    "Latin" : {
+      "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Latin"
+    },
+    "hasWork" : {
+      "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasWork",
+      "@type" : "@id"
+    },
+    "Criminal" : {
+      "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Criminal"
+    },
+    "Relief" : {
+      "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Relief"
+    },
+    "Deset" : {
+      "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Deset"
+    },
+    "Procedence" : {
+      "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Procedence"
+    },
+    "Lab" : {
+      "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Lab"
+    },
+    "Job" : {
+      "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Job"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "hasCaliber" : {
+      "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasCaliber",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    }
+  }
+}

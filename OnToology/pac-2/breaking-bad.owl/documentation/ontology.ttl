@@ -1,0 +1,340 @@
+@prefix : <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#> .
+
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad> rdf:type owl:Ontology ;
+                                                                    rdfs:comment "Creada per Juan Piza Ferra" ,
+                                                                                 "Ontologia de la sèrie Breaking Bad" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2000/01/rdf-schema#sameAs
+rdfs:sameAs rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasHouse
+:hasHouse rdf:type owl:ObjectProperty ,
+                   owl:AsymmetricProperty ;
+          rdfs:domain :Character ;
+          rdfs:range :House .
+
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasWork
+:hasWork rdf:type owl:ObjectProperty ,
+                  owl:AsymmetricProperty ;
+         rdfs:domain :Character ;
+         rdfs:range :Job .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasCaliber
+:hasCaliber rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Gun ;
+            rdfs:range xsd:double .
+
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasName
+:hasName rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Character ;
+         rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasNativeTongue
+:hasNativeTongue rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Character ;
+                 rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#American
+:American rdf:type owl:Class ;
+          rdfs:subClassOf :Procedence ;
+          rdfs:comment "Character who comes from North America" .
+
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Bomb
+:Bomb rdf:type owl:Class ;
+      rdfs:subClassOf :Object ;
+      rdfs:comment "Bombs used in the show" .
+
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Character
+:Character rdf:type owl:Class ;
+           rdfs:subClassOf [ rdf:type owl:Restriction ;
+                             owl:onProperty :hasHouse ;
+                             owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                             owl:onClass :House
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :hasWork ;
+                             owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                             owl:onClass :Job
+                           ] ;
+           rdfs:comment "Identifies types of characters" .
+
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Criminal
+:Criminal rdf:type owl:Class ;
+          rdfs:subClassOf :Organization ;
+          rdfs:comment "Different criminal organizations" .
+
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Deset
+:Deset rdf:type owl:Class ;
+       rdfs:subClassOf :Location ;
+       rdfs:comment "Important desert locations" .
+
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#European
+:European rdf:type owl:Class ;
+          rdfs:subClassOf :Procedence ;
+          rdfs:comment "Character who comes from Europe" .
+
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Eventual
+:Eventual rdf:type owl:Class ;
+          rdfs:subClassOf :Character ;
+          rdfs:comment "Has appeared once or not many times" .
+
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Gun
+:Gun rdf:type owl:Class ;
+     rdfs:subClassOf :Weapon ;
+     owl:disjointWith :Knife ;
+     rdfs:comment "Most used guns" .
+
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#House
+:House rdf:type owl:Class ;
+       rdfs:subClassOf :Location ;
+       rdfs:comment "People houses" .
+
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Illegal
+:Illegal rdf:type owl:Class ;
+         rdfs:subClassOf :Job ;
+         owl:disjointWith :Legal ;
+         rdfs:comment "Illicit job" .
+
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Job
+:Job rdf:type owl:Class ;
+     rdfs:comment "Types of jobs" .
+
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Knife
+:Knife rdf:type owl:Class ;
+       rdfs:subClassOf :Weapon ;
+       rdfs:comment "Important knifes used" .
+
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Lab
+:Lab rdf:type owl:Class ;
+     rdfs:subClassOf :Location ;
+     rdfs:comment "Different labs throughout the show" .
+
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Latin
+:Latin rdf:type owl:Class ;
+       rdfs:subClassOf :Procedence ;
+       rdfs:comment "Character who comes from Latin America" .
+
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Legal
+:Legal rdf:type owl:Class ;
+       rdfs:subClassOf :Job ;
+       rdfs:comment "Regulated job" .
+
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Location
+:Location rdf:type owl:Class ;
+          rdfs:comment "Places with notority" .
+
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Main
+:Main rdf:type owl:Class ;
+      rdfs:subClassOf :Character ;
+      rdfs:comment "Main characters" .
+
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Object
+:Object rdf:type owl:Class ;
+        rdfs:comment "Things used in the show by the characters" .
+
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Organization
+:Organization rdf:type owl:Class ;
+              rdfs:comment "Organization related to drug manufacturing" .
+
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Poison
+:Poison rdf:type owl:Class ;
+        rdfs:subClassOf :Object ;
+        rdfs:comment "Poisons used" .
+
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Procedence
+:Procedence rdf:type owl:Class ;
+            rdfs:comment "Procedence of a character" .
+
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Producer
+:Producer rdf:type owl:Class ;
+          rdfs:subClassOf :Organization ;
+          rdfs:comment "Organization whom produces goods" .
+
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Relief
+:Relief rdf:type owl:Class ;
+        rdfs:subClassOf :Character ;
+        rdfs:comment "Has some importance" .
+
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Secondary
+:Secondary rdf:type owl:Class ;
+           rdfs:subClassOf :Character ;
+           rdfs:comment "Secondary characters" .
+
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Supplier
+:Supplier rdf:type owl:Class ;
+          rdfs:subClassOf :Organization ;
+          rdfs:comment "Provider organization whom add supplies to other organizations" .
+
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Weapon
+:Weapon rdf:type owl:Class ;
+        rdfs:subClassOf :Object ;
+        rdfs:comment "Types of weapons used in the show" .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Cook
+:Cook rdf:type owl:NamedIndividual ,
+               :Illegal .
+
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Laundry_Lab
+:Laundry_Lab rdf:type owl:NamedIndividual ,
+                      :Lab .
+
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Lawyer
+:Lawyer rdf:type owl:NamedIndividual ,
+                 :Legal ;
+        rdfs:sameAs "https://dbpedia.org/page/Lawyer" .
+
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Saul_Goodman
+:Saul_Goodman rdf:type owl:NamedIndividual ,
+                       :Main ;
+              :hasWork :Lawyer ;
+              rdfs:sameAs "https://dbpedia.org/page/Saul_Goodman" .
+
+
+###  http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Walter_White
+:Walter_White rdf:type owl:NamedIndividual ,
+                       :Main ;
+              :hasWork :Cook ;
+              :hasNativeTongue "English" ;
+              rdfs:sameAs "https://dbpedia.org/page/Walter_White_(Breaking_Bad)" .
+
+
+#################################################################
+#    Rules
+#################################################################
+
+<urn:swrl:var#c> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Character ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasNativeTongue ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> "English"
+                                                                ] ;
+                                                      rdf:rest rdf:nil
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :American ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Character ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasNativeTongue ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> "Spanish"
+                                                                ] ;
+                                                      rdf:rest rdf:nil
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Latin ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Character ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasNativeTongue ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> "Deutch"
+                                                                ] ;
+                                                      rdf:rest rdf:nil
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :European ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
