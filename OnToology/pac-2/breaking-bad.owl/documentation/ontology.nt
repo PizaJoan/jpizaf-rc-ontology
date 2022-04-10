@@ -1,0 +1,317 @@
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad> <http://www.w3.org/2000/01/rdf-schema#comment> "Creada per Juan Piza Ferra" .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad> <http://www.w3.org/2000/01/rdf-schema#comment> "Ontologia de la sèrie Breaking Bad" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2000/01/rdf-schema#sameAs
+<http://www.w3.org/2000/01/rdf-schema#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasHouse
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasHouse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasHouse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasHouse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Character> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasHouse> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#House> .
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasWork
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasWork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasWork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasWork> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Character> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasWork> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Job> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasCaliber
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasCaliber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasCaliber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Gun> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasCaliber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasName
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Character> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasNativeTongue
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasNativeTongue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasNativeTongue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Character> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasNativeTongue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#American
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#American> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#American> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Procedence> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#American> <http://www.w3.org/2000/01/rdf-schema#comment> "Character who comes from North America" .
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Bomb
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Bomb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Bomb> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Object> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Bomb> <http://www.w3.org/2000/01/rdf-schema#comment> "Bombs used in the show" .
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Character
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Character> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Character> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#House> .
+_:genid1 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasHouse> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Character> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Job> .
+_:genid2 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasWork> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Character> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifies types of characters" .
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Criminal
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Criminal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Criminal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Organization> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Criminal> <http://www.w3.org/2000/01/rdf-schema#comment> "Different criminal organizations" .
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Deset
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Deset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Deset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Location> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Deset> <http://www.w3.org/2000/01/rdf-schema#comment> "Important desert locations" .
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#European
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#European> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#European> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Procedence> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#European> <http://www.w3.org/2000/01/rdf-schema#comment> "Character who comes from Europe" .
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Eventual
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Eventual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Eventual> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Character> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Eventual> <http://www.w3.org/2000/01/rdf-schema#comment> "Has appeared once or not many times" .
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Gun
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Gun> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Gun> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Weapon> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Gun> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Knife> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Gun> <http://www.w3.org/2000/01/rdf-schema#comment> "Most used guns" .
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#House
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#House> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#House> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Location> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#House> <http://www.w3.org/2000/01/rdf-schema#comment> "People houses" .
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Illegal
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Illegal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Illegal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Job> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Illegal> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Legal> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Illegal> <http://www.w3.org/2000/01/rdf-schema#comment> "Illicit job" .
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Job
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Job> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Job> <http://www.w3.org/2000/01/rdf-schema#comment> "Types of jobs" .
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Knife
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Knife> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Knife> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Weapon> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Knife> <http://www.w3.org/2000/01/rdf-schema#comment> "Important knifes used" .
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Lab
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Lab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Lab> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Location> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Lab> <http://www.w3.org/2000/01/rdf-schema#comment> "Different labs throughout the show" .
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Latin
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Latin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Latin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Procedence> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Latin> <http://www.w3.org/2000/01/rdf-schema#comment> "Character who comes from Latin America" .
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Legal
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Legal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Legal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Job> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Legal> <http://www.w3.org/2000/01/rdf-schema#comment> "Regulated job" .
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Location
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Location> <http://www.w3.org/2000/01/rdf-schema#comment> "Places with notority" .
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Main
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Main> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Main> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Character> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Main> <http://www.w3.org/2000/01/rdf-schema#comment> "Main characters" .
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Object
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Object> <http://www.w3.org/2000/01/rdf-schema#comment> "Things used in the show by the characters" .
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Organization
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Organization> <http://www.w3.org/2000/01/rdf-schema#comment> "Organization related to drug manufacturing" .
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Poison
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Poison> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Poison> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Object> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Poison> <http://www.w3.org/2000/01/rdf-schema#comment> "Poisons used" .
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Procedence
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Procedence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Procedence> <http://www.w3.org/2000/01/rdf-schema#comment> "Procedence of a character" .
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Producer
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Producer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Producer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Organization> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Producer> <http://www.w3.org/2000/01/rdf-schema#comment> "Organization whom produces goods" .
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Relief
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Relief> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Relief> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Character> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Relief> <http://www.w3.org/2000/01/rdf-schema#comment> "Has some importance" .
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Secondary
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Secondary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Secondary> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Character> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Secondary> <http://www.w3.org/2000/01/rdf-schema#comment> "Secondary characters" .
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Supplier
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Supplier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Supplier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Organization> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Supplier> <http://www.w3.org/2000/01/rdf-schema#comment> "Provider organization whom add supplies to other organizations" .
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Weapon
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Weapon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Weapon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Object> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Weapon> <http://www.w3.org/2000/01/rdf-schema#comment> "Types of weapons used in the show" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Cook
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Cook> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Cook> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Illegal> .
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Laundry_Lab
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Laundry_Lab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Laundry_Lab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Lab> .
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Lawyer
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Lawyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Lawyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Legal> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Lawyer> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/Lawyer" .
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Saul_Goodman
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Saul_Goodman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Saul_Goodman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Main> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Saul_Goodman> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasWork> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Lawyer> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Saul_Goodman> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/Saul_Goodman" .
+# 
+# http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Walter_White
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Walter_White> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Walter_White> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Main> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Walter_White> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasWork> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Cook> .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Walter_White> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasNativeTongue> "English" .
+<http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Walter_White> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/Walter_White_(Breaking_Bad)" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Rules
+# #
+# #################################################################
+# 
+# 
+<urn:swrl:var#c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid10 <http://www.w3.org/2003/11/swrl#body> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid12 .
+_:genid12 <http://www.w3.org/2003/11/swrl#argument2> "English" .
+_:genid12 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> .
+_:genid12 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasNativeTongue> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid14 .
+_:genid14 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> .
+_:genid14 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Character> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid10 <http://www.w3.org/2003/11/swrl#head> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid16 .
+_:genid16 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> .
+_:genid16 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#American> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid17 <http://www.w3.org/2003/11/swrl#body> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid19 .
+_:genid19 <http://www.w3.org/2003/11/swrl#argument2> "Spanish" .
+_:genid19 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> .
+_:genid19 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasNativeTongue> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid21 .
+_:genid21 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> .
+_:genid21 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Character> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid17 <http://www.w3.org/2003/11/swrl#head> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid23 .
+_:genid23 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> .
+_:genid23 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Latin> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid3 <http://www.w3.org/2003/11/swrl#body> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid5 .
+_:genid5 <http://www.w3.org/2003/11/swrl#argument2> "Deutch" .
+_:genid5 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> .
+_:genid5 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasNativeTongue> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid7 .
+_:genid7 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> .
+_:genid7 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Character> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid3 <http://www.w3.org/2003/11/swrl#head> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid9 .
+_:genid9 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> .
+_:genid9 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#European> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

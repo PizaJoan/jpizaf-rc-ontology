@@ -1,0 +1,496 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#House"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasHouse"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid14"
+    }, {
+      "@id" : "_:genid12"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid16"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@value" : "English"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasNativeTongue"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Character"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#American"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid21"
+    }, {
+      "@id" : "_:genid19"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid23"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@value" : "Spanish"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasNativeTongue"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Job"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasWork"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Character"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Latin"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid7"
+    }, {
+      "@id" : "_:genid5"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid9"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@value" : "Deutch"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasNativeTongue"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Character"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#European"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Creada per Juan Piza Ferra"
+  }, {
+    "@value" : "Ontologia de la sèrie Breaking Bad"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#American",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Character who comes from North America"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Procedence"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Bomb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Bombs used in the show"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Object"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Character",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Identifies types of characters"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid1"
+  }, {
+    "@id" : "_:genid2"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Cook",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Illegal"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Criminal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Different criminal organizations"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Organization"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Deset",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Important desert locations"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Location"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#European",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Character who comes from Europe"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Procedence"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Eventual",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Has appeared once or not many times"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Gun",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Most used guns"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Weapon"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Knife"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#House",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "People houses"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Location"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Illegal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Illicit job"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Job"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Legal"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Job",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Types of jobs"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Knife",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Important knifes used"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Weapon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Lab",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Different labs throughout the show"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Location"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Latin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Character who comes from Latin America"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Procedence"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Laundry_Lab",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Lab"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Lawyer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Legal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Lawyer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Legal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Regulated job"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Job"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Places with notority"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Main",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Main characters"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Object",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Things used in the show by the characters"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Organization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Organization related to drug manufacturing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Poison",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Poisons used"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Object"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Procedence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Procedence of a character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Producer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Organization whom produces goods"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Organization"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Relief",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Has some importance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Saul_Goodman",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasWork" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Lawyer"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Main"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Saul_Goodman"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Secondary",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Secondary characters"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Supplier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Provider organization whom add supplies to other organizations"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Organization"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Walter_White",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasNativeTongue" : [ {
+    "@value" : "English"
+  } ],
+  "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasWork" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Cook"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Main"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Walter_White_(Breaking_Bad)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Weapon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Types of weapons used in the show"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Object"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasCaliber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Gun"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasHouse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#House"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasNativeTongue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#hasWork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/jpizaf/ontologies/2022/3/breaking-bad#Job"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "urn:swrl:var#c",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+} ]
